@@ -1,0 +1,121 @@
+body {
+	background-color: rgb(223, 223, 223);
+	margin: 0px;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+nav {
+	background-color: rgb(52, 52, 52);
+}
+
+nav img {
+	width: 150px;
+	margin: 10px 40px;
+}
+
+nav span {
+	display: list-item;
+	list-style: disc;
+
+	/* 垂直居中 */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	display: inline;
+	padding-right: 20px;
+	line-height: 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+article {
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 3px 3px 2px #888888;
+}
+
+
+
+
+table {
+	width: 100%;
+	background-color: rgb(204, 204, 204); 
+  	border: solid 1px rgb(204, 204, 204);
+}
+
+table tr {
+	background-color: white;
+}
+
+tr#th {
+	background-color: rgb(52, 52, 52);
+	color: white;
+}
+
+tr#sum {
+	background-color: rgb(204, 204, 204);
+}
+
+aside {
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 3px 3px 2px #888888;
+}
+
+.content h2 {
+	padding: 0px 10px;
+	border-left: 3px solid rgb(170, 170, 170);
+}
+
+.form-group {
+	margin: 10px 0px;
+}
+
+.form-group label {
+	width: 30%;
+	float: left;
+	text-align: right;
+	margin-right: 1%;
+}
+
+.form-group textarea {
+	width: 800px;
+	height: 100px;
+}
+
+.hint p{
+	margin-left: 31%;
+	font-size: 12px;
+	margin-right: 10px;
+	color: rgb(170, 170, 170);
+}
+
+#submit {
+	width: 100%;
+	font-size: 16px;
+	color: white;
+	background-color: rgb( 54, 89, 205);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
