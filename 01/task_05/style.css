@@ -1,0 +1,136 @@
+body {
+	margin: 0px;
+	background-color: rgb(223, 223, 223);
+	min-width: 740px;
+	font-family:Arial,'Lucida Grande',sans-serif;
+}
+
+
+nav {
+	background-color: rgb(52, 52, 52);
+	padding: 15px;
+}
+nav img {
+	width: 150px;
+	height: auto;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	display: inline;
+	margin-left: 10px;
+}
+
+nav ul a {
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+article {
+	margin: 20px;
+	margin-right: 430px;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 2px 2px 1px gray;
+	min-width: 250px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+table {
+	background-color: rgb(203, 203, 203);
+	width: 100%;
+}
+
+table td {
+	background-color: white;
+}
+
+table th {
+	background-color: rgb(52, 52, 52);
+	color: white;
+}
+
+#sum td{
+	background-color: rgb(203, 203, 203);
+}
+
+aside {
+	background-color: white;
+	float: right;
+	margin: 20px;
+	padding: 20px;
+	width: 350px;
+	box-shadow: 2px 2px 1px gray;
+}
+
+aside h3 {
+	border-left: 3px solid rgb(203, 203, 203);
+	padding-left: 5px;
+}
+
+.form-group {
+	margin: 10px 0px;
+}
+
+.form-group label {
+	float: left;
+	text-align: right;
+	width: 40%;
+}
+
+.form-group input , textarea, select{
+	margin-left: 2%;
+}
+
+.form-group textarea {
+	height: 80px;
+	width: 190px;
+}
+
+.hint p {
+	font-size: 12px;
+	margin-left: 42%;
+	color: gray;
+}
+
+#submit {
+	background-color: rgb(54, 89, 205);
+	color: white;
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+	height: 40px;
+}
+
+#pic div {
+	display: inline-block;
+}
+
+#pic div div{
+	border: 1px solid gray;
+	padding: 10px;
+	padding-top: 0px;
+	margin: 10px;
+}
+
+#pic img {
+	width: 100px;
+	height: 100px;
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+	height: 40px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
